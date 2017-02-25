@@ -11,7 +11,7 @@ public class MessageTest {
 
 	@Test
 	public void messageSaysHello() {
-		assertThat(message.sayHello(), containsString("hello"));
+		assertThat(message.sayHello(), containsString("Hello"));
 	}
 
 }
